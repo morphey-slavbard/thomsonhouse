@@ -1,6 +1,7 @@
 .hero{
 
 width: 100%;
+
 }
 
 .menu{
@@ -38,7 +39,10 @@ a{
 
 .footer_img{
 width: 100%;
+}
 
+img{
+    width: 100%;
 
 }
     
