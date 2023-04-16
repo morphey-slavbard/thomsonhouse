@@ -60,14 +60,14 @@ img{
 
 @media (max-width: 600px) {
     .blocks{
-        background-color: lightblue;
-        grid-template-areas:
+       background-color: lightblue;
+       grid-template-areas:
       'div2'
       'div1'
       'div3'
       'div4';
       grid-template-columns: repeat(2, 100%);
-    grid-template-rows: repeat(2, 250px);
+      grid-template-rows: repeat(2, 250px);
         
     }
 }
@@ -76,32 +76,24 @@ img{
 .div1{
     background-color: lightblue;
     grid-area: div1;
-    /*grid-column: col / span 3;
-	grid-row: row ;*/
     padding: 10px;
 }
 
 .div2{
     background-color: #FF7276;
     grid-area: div2;
-    /*grid-column: col 4 / span 3 ;
-	grid-row: row ;*/
     padding: 10px;
 }
 
 .div3{
     background-color: #FF7276;
     grid-area: div3;
-    /*grid-column: col  / span 3 ;
-	grid-row: row 2 ;*/
     padding: 10px;
 }
 
 .div4{
     background-color: lightblue;
     grid-area: div4;
-    /*grid-column: col 4 / span 3 ;
-	grid-row: row 2 ;*/
     padding: 10px;
 }
 
