@@ -15,12 +15,6 @@ a{
     
 }
 
-img{
-    width: 100%;
-	display:block;
-
-}
-
 .content{
     width: 100%;
     background-color:white;
@@ -49,44 +43,68 @@ width: 100%;
 
 img{
     width: 100%;
+    display: block;
+}
+
+.blocks{
+    width:100%;
+    display: grid;
+    grid-template-areas:
+    'div1 div2'
+    'div3 div4';
+    
+		/*grid-template-columns: [col] auto [col] auto [col] auto [col] auto [col] auto [col] auto;
+		grid-template-rows: [row] auto [row] auto [row] ;*/
 
 }
+
+@media (max-width: 600px) {
+    .blocks{
+        background-color: lightblue;
+        grid-template-areas:
+      'div2'
+      'div1'
+      'div3'
+      'div4';
+      grid-template-columns: repeat(2, 100%);
+    grid-template-rows: repeat(2, 250px);
+        
+    }
+}
+
     
 .div1{
     background-color: lightblue;
-    grid-column: col / span 3;
-		grid-row: row ;
+    grid-area: div1;
+    /*grid-column: col / span 3;
+	grid-row: row ;*/
     padding: 10px;
 }
 
 .div2{
     background-color: #FF7276;
-    grid-column: col 4 / span 3 ;
-	grid-row: row ;
+    grid-area: div2;
+    /*grid-column: col 4 / span 3 ;
+	grid-row: row ;*/
     padding: 10px;
 }
 
 .div3{
     background-color: #FF7276;
-    grid-column: col  / span 3 ;
-	grid-row: row 2 ;
+    grid-area: div3;
+    /*grid-column: col  / span 3 ;
+	grid-row: row 2 ;*/
     padding: 10px;
 }
 
 .div4{
     background-color: lightblue;
-    grid-column: col 4 / span 3 ;
-	grid-row: row 2 ;
+    grid-area: div4;
+    /*grid-column: col 4 / span 3 ;
+	grid-row: row 2 ;*/
     padding: 10px;
 }
-.blocks{
-    width:100%;
-    display: grid;
-    
-		grid-template-columns: [col] auto [col] auto [col] auto [col] auto [col] auto [col] auto;
-		grid-template-rows: [row] auto [row] auto [row] ;
 
-}
 
 .blerg{
     font-size: x-large;
