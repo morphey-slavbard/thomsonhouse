@@ -9,7 +9,11 @@
 </head>
 <body>
     <div>
-    <img class="hero" src="img/header.jpg" alt="header" height="400">
+        <picture>
+            <source class="hero" srcset="img/header.jpg" media="(min-width: 600px)"/>
+            <img src="img/mobile_img.png" alt="header"/>
+          </picture>
+
 </div>
 <div class="menu">
     <a class="menu_btn" href="https://members.parliament.uk/member/4591/contact">Contact your local MP</a>
