@@ -1,0 +1,112 @@
+.hero{
+
+width: 100%;
+}
+
+.menu{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: blue;
+    
+}
+
+.content{
+    width: 100%;
+    background-color:white;
+    color:black;
+    
+}
+
+.anuk{
+    width: 100%;
+    background-color:lightgrey;
+    color:black;
+    padding: 5px;   
+}
+
+.footer{
+    width: 100%;
+    background-color:#000038;
+    color:white;
+    padding: 5px;  
+    overflow:auto; 
+}
+
+.footer_img{
+width: 100%;
+
+
+}
+    
+.div1{
+    background-color: lightblue;
+    grid-column: col / span 3;
+		grid-row: row ;
+    padding: 10px;
+}
+
+.div2{
+    background-color: #FF7276;
+    grid-column: col 4 / span 3 ;
+	grid-row: row ;
+    padding: 10px;
+}
+
+.div3{
+    background-color: #FF7276;
+    grid-column: col  / span 3 ;
+	grid-row: row 2 ;
+    padding: 10px;
+}
+
+.div4{
+    background-color: lightblue;
+    grid-column: col 4 / span 3 ;
+	grid-row: row 2 ;
+    padding: 10px;
+}
+.blocks{
+    width:100%;
+    display: grid;
+    
+		grid-template-columns: [col] auto [col] auto [col] auto [col] auto [col] auto [col] auto;
+		grid-template-rows: [row] auto [row] auto [row] ;
+
+}
+
+.blerg{
+    font-size: x-large;
+    padding:5px;
+}
+
+.menu_btn {
+    background-color: lightblue;
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin:3px;
+}
+
+
+
