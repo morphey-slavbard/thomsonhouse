@@ -52,9 +52,6 @@ img{
     grid-template-areas:
     'div1 div2'
     'div3 div4';
-    
-		/*grid-template-columns: [col] auto [col] auto [col] auto [col] auto [col] auto [col] auto;
-		grid-template-rows: [row] auto [row] auto [row] ;*/
 
 }
 
