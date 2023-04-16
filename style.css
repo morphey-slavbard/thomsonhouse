@@ -69,6 +69,25 @@ img{
     }
 }
 
+@media (max-width: 600px) {
+    .div1{
+        margin:0px 20px;
+    }
+@media (max-width: 600px) {
+    .div2{
+        margin:0px 20px;
+    }
+    
+@media (max-width: 600px) {
+    .div3{
+        margin:0px 20px;
+    }
+    
+@media (max-width: 600px) {
+    .div4{
+        margin:0px 20px;
+    }
+        
     
 .div1{
     background-color: lightblue;
